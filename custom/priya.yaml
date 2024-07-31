@@ -1,0 +1,16 @@
+address:
+  city: Mumbai
+  country: India
+  state: Maharashtra
+  street: 123 Main St
+  zipCode: '400001'
+age: 30
+email: priya@example.com
+gender: Female
+hobbies:
+- Reading
+- Traveling
+- Photography
+name: Priya
+occupation: Software Engineer
+phone: 123-456-7890
