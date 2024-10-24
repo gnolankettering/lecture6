@@ -18,7 +18,16 @@ response = client.chat.completions.create(
             "role": "assistant",
             "content": "A masterful blend of compelling storytelling, rich character depth, and unforgettable performances - two thumbs up!",
         },
-        {"role": "user", "content": "Please write 10 headlines for a movie review for the movie Up! in the style of Siskel and Ebert in 15 words in JSON format"},
+                {
+            "role": "user",
+            "content": "Please write a movie review for the movie Up! in the style of Siskel and Ebert in 15 words",
+        },
+        {
+            "role": "assistant",
+            "content": "A heartwarming adventure that soars with emotion and charm - Pixar's latest masterpiece earns praise. - two thumbs up!",
+        },
+        
+        {"role": "user", "content": "Please write 10 headlines for a movie review for the movie Scarface in the style of Siskel and Ebert in 15 words in JSON format"},
     ]
 )
 
